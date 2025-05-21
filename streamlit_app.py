@@ -8,7 +8,7 @@ st.image("miku.jpg", width=200)
 
 st.title("Aplikasi Sederhana")
 
-# Menggunakan layout kolom
+# Menggunakan layout kolom###
 #col1, col2 = st.columns(2)
 
 #with col1:
