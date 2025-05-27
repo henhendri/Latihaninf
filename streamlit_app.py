@@ -7,9 +7,9 @@ st.write(
 st.image("miku.jpg", width=200)
 
 ###########
+st.title("Aplikasi Sederhana")
 c1, c2 = st.columns(2)
 with c1:
-    st.title("Aplikasi Sederhana")
     st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
     angka = st.number_input("Tulis sebuah Angka:", value=0, step=1)
     
@@ -26,7 +26,7 @@ with c2:
         import random
         st.session_state.secret_number = random.randint(1, 50)
     
-    st.title("Game Tebak Angka")
+    st.header("Game Tebak Angka")
     
     guess = st.number_input("Masukkan tebakan angka (1-50):", min_value=1, max_value=50, step=1)
     if st.button("Tebak"):
