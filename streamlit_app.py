@@ -7,6 +7,7 @@ st.write(
 st.image("miku.jpg", width=200)
 
 st.title("Aplikasi Sederhana")
+with c1:
 st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
 angka = st.number_input("Tulis sebuah Angka:", value=0, step=1)
 
@@ -16,7 +17,9 @@ else:
   st.write(f"{angka} adalah Bilangan Ganjil")
 
 ###########################
+c1, c2 = st.columns(2)
 
+with c2:
 # Inisialisasi angka rahasia di session_state
 if "secret_number" not in st.session_state:
     import random
