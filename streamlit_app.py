@@ -6,8 +6,8 @@ st.write(
 )
 st.image("miku.jpg", width=200)
 
-st.title("Aplikasi Sederhana")
 with c1:
+st.title("Aplikasi Sederhana")
 st.header("Aplikasi Mengecek Nilai Genap/Ganjil")
 angka = st.number_input("Tulis sebuah Angka:", value=0, step=1)
 
