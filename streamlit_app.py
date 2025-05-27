@@ -24,7 +24,6 @@ with c1:
 with c2:
     # Inisialisasi angka rahasia di session_state
     if "secret_number" not in st.session_state:
-        #import random
         st.session_state.secret_number = random.randint(1, 50)
     
     st.header("Game Tebak Angka")
