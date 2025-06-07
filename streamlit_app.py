@@ -8,9 +8,6 @@ st.write(
 st.image("miku.jpg", width=200)
 st.image("1698625748522.jpg", width=200)
 
-
-
-
 ###########
 st.title("Aplikasi Sederhana")
 c1, c2 = st.columns(2)
