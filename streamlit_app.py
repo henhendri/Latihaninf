@@ -6,6 +6,10 @@ st.write(
     "ngodingseru bersama Bapak Hendri Setiadi"
 )
 st.image("miku.jpg", width=200)
+st.image("1698625748522.jpg", width=200)
+
+
+
 
 ###########
 st.title("Aplikasi Sederhana")
